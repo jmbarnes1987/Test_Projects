@@ -1,0 +1,197 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.6.0
+3 info using node@v5.6.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData angular2
+20 silly mapToRegistry name angular2
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/angular2
+24 silly fetchNamedPackageData es6-promise
+25 silly mapToRegistry name es6-promise
+26 silly mapToRegistry using default registry
+27 silly mapToRegistry registry https://registry.npmjs.org/
+28 silly mapToRegistry uri https://registry.npmjs.org/es6-promise
+29 silly fetchNamedPackageData es6-shim
+30 silly mapToRegistry name es6-shim
+31 silly mapToRegistry using default registry
+32 silly mapToRegistry registry https://registry.npmjs.org/
+33 silly mapToRegistry uri https://registry.npmjs.org/es6-shim
+34 silly fetchNamedPackageData reflect-metadata
+35 silly mapToRegistry name reflect-metadata
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry uri https://registry.npmjs.org/reflect-metadata
+39 silly fetchNamedPackageData rxjs
+40 silly mapToRegistry name rxjs
+41 silly mapToRegistry using default registry
+42 silly mapToRegistry registry https://registry.npmjs.org/
+43 silly mapToRegistry uri https://registry.npmjs.org/rxjs
+44 silly fetchNamedPackageData zone.js
+45 silly mapToRegistry name zone.js
+46 silly mapToRegistry using default registry
+47 silly mapToRegistry registry https://registry.npmjs.org/
+48 silly mapToRegistry uri https://registry.npmjs.org/zone.js
+49 verbose request uri https://registry.npmjs.org/angular2
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 1:04:08 PM
+52 verbose request id ed5a11d1bef6076f
+53 http request GET https://registry.npmjs.org/angular2
+54 verbose request uri https://registry.npmjs.org/es6-promise
+55 verbose request no auth needed
+56 info attempt registry request try #1 at 1:04:08 PM
+57 http request GET https://registry.npmjs.org/es6-promise
+58 verbose request uri https://registry.npmjs.org/es6-shim
+59 verbose request no auth needed
+60 info attempt registry request try #1 at 1:04:08 PM
+61 http request GET https://registry.npmjs.org/es6-shim
+62 verbose request uri https://registry.npmjs.org/reflect-metadata
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 1:04:08 PM
+65 http request GET https://registry.npmjs.org/reflect-metadata
+66 verbose request uri https://registry.npmjs.org/rxjs
+67 verbose request no auth needed
+68 info attempt registry request try #1 at 1:04:08 PM
+69 http request GET https://registry.npmjs.org/rxjs
+70 verbose request uri https://registry.npmjs.org/zone.js
+71 verbose request no auth needed
+72 info attempt registry request try #1 at 1:04:08 PM
+73 http request GET https://registry.npmjs.org/zone.js
+74 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.44.162:443
+75 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.44.162:443
+76 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.44.162:443
+77 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.44.162:443
+78 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.44.162:443
+79 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.44.162:443
+80 info attempt registry request try #2 at 1:04:39 PM
+81 http request GET https://registry.npmjs.org/reflect-metadata
+82 info attempt registry request try #2 at 1:04:39 PM
+83 http request GET https://registry.npmjs.org/es6-promise
+84 info attempt registry request try #2 at 1:04:39 PM
+85 http request GET https://registry.npmjs.org/rxjs
+86 info attempt registry request try #2 at 1:04:39 PM
+87 http request GET https://registry.npmjs.org/zone.js
+88 info attempt registry request try #2 at 1:04:39 PM
+89 http request GET https://registry.npmjs.org/es6-shim
+90 info attempt registry request try #2 at 1:04:40 PM
+91 http request GET https://registry.npmjs.org/angular2
+92 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.40.162:443
+93 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.40.162:443
+94 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.40.162:443
+95 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.40.162:443
+96 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.40.162:443
+97 info retry will retry, error on last attempt: Error: connect ETIMEDOUT 23.235.40.162:443
+98 info attempt registry request try #3 at 1:06:01 PM
+99 http request GET https://registry.npmjs.org/es6-promise
+100 info attempt registry request try #3 at 1:06:01 PM
+101 http request GET https://registry.npmjs.org/zone.js
+102 info attempt registry request try #3 at 1:06:01 PM
+103 http request GET https://registry.npmjs.org/rxjs
+104 info attempt registry request try #3 at 1:06:01 PM
+105 http request GET https://registry.npmjs.org/reflect-metadata
+106 info attempt registry request try #3 at 1:06:01 PM
+107 http request GET https://registry.npmjs.org/angular2
+108 info attempt registry request try #3 at 1:06:01 PM
+109 http request GET https://registry.npmjs.org/es6-shim
+110 silly fetchPackageMetaData Error: connect ETIMEDOUT 23.235.40.162:443
+110 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+110 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:879:20)
+110 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+110 silly fetchPackageMetaData  error for rxjs@5.0.0-beta.0 { [Error: connect ETIMEDOUT 23.235.40.162:443]
+110 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+110 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+110 silly fetchPackageMetaData   syscall: 'connect',
+110 silly fetchPackageMetaData   address: '23.235.40.162',
+110 silly fetchPackageMetaData   port: 443 }
+111 silly fetchPackageMetaData Error: connect ETIMEDOUT 23.235.40.162:443
+111 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+111 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:879:20)
+111 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+111 silly fetchPackageMetaData  error for angular2@2.0.0-beta.6 { [Error: connect ETIMEDOUT 23.235.40.162:443]
+111 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+111 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+111 silly fetchPackageMetaData   syscall: 'connect',
+111 silly fetchPackageMetaData   address: '23.235.40.162',
+111 silly fetchPackageMetaData   port: 443 }
+112 silly fetchPackageMetaData Error: connect ETIMEDOUT 23.235.40.162:443
+112 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+112 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:879:20)
+112 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+112 silly fetchPackageMetaData  error for es6-shim@^0.33.3 { [Error: connect ETIMEDOUT 23.235.40.162:443]
+112 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+112 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+112 silly fetchPackageMetaData   syscall: 'connect',
+112 silly fetchPackageMetaData   address: '23.235.40.162',
+112 silly fetchPackageMetaData   port: 443 }
+113 silly fetchPackageMetaData Error: connect ETIMEDOUT 23.235.40.162:443
+113 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+113 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:879:20)
+113 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+113 silly fetchPackageMetaData  error for reflect-metadata@0.1.2 { [Error: connect ETIMEDOUT 23.235.40.162:443]
+113 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+113 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+113 silly fetchPackageMetaData   syscall: 'connect',
+113 silly fetchPackageMetaData   address: '23.235.40.162',
+113 silly fetchPackageMetaData   port: 443 }
+114 silly fetchPackageMetaData Error: connect ETIMEDOUT 23.235.40.162:443
+114 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+114 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:879:20)
+114 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+114 silly fetchPackageMetaData  error for zone.js@0.5.14 { [Error: connect ETIMEDOUT 23.235.40.162:443]
+114 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+114 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+114 silly fetchPackageMetaData   syscall: 'connect',
+114 silly fetchPackageMetaData   address: '23.235.40.162',
+114 silly fetchPackageMetaData   port: 443 }
+115 silly fetchPackageMetaData Error: connect ETIMEDOUT 23.235.40.162:443
+115 silly fetchPackageMetaData     at Object.exports._errnoException (util.js:856:11)
+115 silly fetchPackageMetaData     at exports._exceptionWithHostPort (util.js:879:20)
+115 silly fetchPackageMetaData     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+115 silly fetchPackageMetaData  error for es6-promise@^3.0.2 { [Error: connect ETIMEDOUT 23.235.40.162:443]
+115 silly fetchPackageMetaData   code: 'ETIMEDOUT',
+115 silly fetchPackageMetaData   errno: 'ETIMEDOUT',
+115 silly fetchPackageMetaData   syscall: 'connect',
+115 silly fetchPackageMetaData   address: '23.235.40.162',
+115 silly fetchPackageMetaData   port: 443 }
+116 silly rollbackFailedOptional Starting
+117 silly rollbackFailedOptional Finishing
+118 silly runTopLevelLifecycles Starting
+119 silly runTopLevelLifecycles Finishing
+120 silly install printInstalled
+121 verbose stack Error: connect ETIMEDOUT 23.235.40.162:443
+121 verbose stack     at Object.exports._errnoException (util.js:856:11)
+121 verbose stack     at exports._exceptionWithHostPort (util.js:879:20)
+121 verbose stack     at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1053:14)
+122 verbose cwd c:\Projects\SDA\Javascript\AngularJS\angular2-quickstart
+123 error Windows_NT 6.1.7601
+124 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+125 error node v5.6.0
+126 error npm  v3.6.0
+127 error code ETIMEDOUT
+128 error errno ETIMEDOUT
+129 error syscall connect
+130 error network connect ETIMEDOUT 23.235.40.162:443
+131 error network This is most likely not a problem with npm itself
+131 error network and is related to network connectivity.
+131 error network In most cases you are behind a proxy or have bad network settings.
+131 error network
+131 error network If you are behind a proxy, please make sure that the
+131 error network 'proxy' config is set properly.  See: 'npm help config'
+132 verbose exit [ 1, true ]
